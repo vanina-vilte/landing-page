@@ -1,0 +1,130 @@
+.ejemplo {
+  background-color: grey;
+}
+
+.fondo {
+  background-color: #000;
+}
+
+.fondo a {
+  color: #fff;
+}
+
+.fondo a:hover {
+  color: #ee2784;
+}
+
+.ajuste {
+  margin-top: 100px;
+}
+
+.margen {
+  margin-top: 100px
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .ajuste {
+    margin-top: 15px;
+    font-size: small;
+  }
+}
+
+.fondodos {
+  background: url(../css/ve.jpg) fixed;
+  padding: 100px 0;
+}
+
+#accion {
+  color: white;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .margen {
+    margin-top: 25px;
+  }
+
+  .fondodos {
+    padding: 30px 0;
+  }
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .menu a {
+    font-size: small;
+  }
+}
+
+/* Hero */
+.hero-section {
+  background: url(../css/ve.jpg)fixed 50% no-repeat;
+  background-size: cover;
+  height: 40vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#footer {
+  font-size: small;
+  background-color: black;
+  color: white;
+}
+
+#footer a {
+  color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.mol {
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Prompt', sans-serif;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .hero-section {
+    height: 30vh;
+  }
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+/*Termina Hero */
+/*Portafolio*/
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-image-block {
+  margin-bottom: 20px;
+}
+
+.featured-image-block .featured-image-block-title {
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #404040;
+}
+
+.featured-image-block a:hover p {
+  color: #1779ba;
+}
